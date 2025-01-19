@@ -1,0 +1,75 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: black;
+    color: orange;
+    text-align: center;
+  }
+  
+  header {
+    padding: 20px;
+    background-color: #222;
+    border-bottom: 2px solid orange;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  main {
+    margin: 50px auto;
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  .upload-section {
+    margin-bottom: 20px;
+  }
+  
+  .upload-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  input[type="file"] {
+    margin: 10px 0;
+    color: white;
+    background-color: orange;
+    border: none;
+    padding: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: orange;
+    color: black;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #ff8800;
+  }
+  
+  .result-section {
+    margin-top: 30px;
+    display: none;
+  }
+  
+  footer {
+    padding: 10px 0;
+    background-color: #222;
+    border-top: 2px solid orange;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
